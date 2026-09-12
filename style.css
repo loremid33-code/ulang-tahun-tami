@@ -1,11 +1,11 @@
 ﻿:root{
-  --ink:#fcfcfc;
+  --ink:#ebd4d4;
   --surface:#FFB6C1;
   --pink:#4A2E2B;
   --yellow:#FFD23F;
   --cyan:#3FE8E0;
   --orange:#FF8A3D;
-  --cream:#FFF6EA;
+  --cream:#e0ad6a;
 }
 *{ box-sizing:border-box; margin:0; padding:0; }
 html{ scroll-behavior:smooth; }
