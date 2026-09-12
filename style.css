@@ -283,7 +283,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 .message-wrap.show .message-card p:nth-of-type(4){ transition-delay: .58s; }
 .message-wrap.show .message-card p:nth-of-type(5){ transition-delay: .70s; }
 .message-card .sign{
-  text-align:right; font-family:'Baloo 2'; color:var(--cyan); font-size:1.1rem; margin-top:1.5rem;
+  text-align:right; font-family:'Baloo 2'; color:#E6467E; font-size:1.1rem; margin-top:1.5rem;
   opacity:0; transform:translateY(14px);
   transition: opacity .6s ease .82s, transform .6s ease .82s;
 }
@@ -366,7 +366,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 
 /* ---------- FOOTER ---------- */
 footer{ text-align:center; padding:4rem 1.5rem 5rem; position:relative; z-index:2; }
-footer .big{ font-family:'Baloo 2'; font-size:clamp(1.6rem,5vw,2.4rem); background:linear-gradient(90deg,var(--cyan),var(--pink)); -webkit-background-clip:text; background-clip:text; color:transparent; font-weight:800; }
+footer .big{ font-family:'Baloo 2'; font-size:clamp(1.6rem,5vw,2.4rem); background:linear-gradient(90deg,var(--orange),#E6467E); -webkit-background-clip:text; background-clip:text; color:transparent; font-weight:800; }
 footer p{ margin-top:.8rem; color:rgba(74,46,43,0.6); }
 
 ::selection{ background:var(--pink); color:var(--ink); }
