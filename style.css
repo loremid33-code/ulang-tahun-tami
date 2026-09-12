@@ -136,7 +136,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 .eyebrow{
   font-family:'Baloo 2'; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
-  color:var(--yellow); font-size:.85rem; margin-bottom:1rem;
+  color:var(--pink); font-size:.85rem; margin-bottom:1rem;
 }
 .hero h1{
   font-size:clamp(2.6rem, 9vw, 5.2rem); line-height:1.05; font-weight:800;
@@ -157,15 +157,15 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
   animation: spin-reverse 14s linear infinite;
 }
 .age-badge b{ font-family:'Baloo 2'; font-size:2.4rem; color:var(--cream); font-weight:800; }
-.age-badge small{ font-size:.6rem; letter-spacing:.1em; color:var(--yellow); }
+.age-badge small{ font-size:.6rem; letter-spacing:.1em; color:var(--pink); }
 @keyframes spin{ to{ transform:rotate(360deg); } }
 @keyframes spin-reverse{ to{ transform:rotate(-360deg); } }
 
 .hero p.tagline{
-  margin-top:1.6rem; font-size:1.15rem; color:rgba(255,246,234,0.75); max-width:36ch;
+  margin-top:1.6rem; font-size:1.15rem; color:rgba(74,46,43,0.8); max-width:36ch;
 }
 .scroll-hint{
-  margin-top:3rem; font-size:.85rem; color:rgba(255,246,234,0.5); display:flex; flex-direction:column; align-items:center; gap:.4rem;
+  margin-top:3rem; font-size:.85rem; color:rgba(74,46,43,0.6); display:flex; flex-direction:column; align-items:center; gap:.4rem;
 }
 .scroll-hint .arrow{ animation:bounce 1.8s ease-in-out infinite; }
 @keyframes bounce{ 0%,100%{transform:translateY(0);} 50%{transform:translateY(8px);} }
@@ -173,7 +173,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 /* ---------- CAKE SECTION ---------- */
 .cake-section{ text-align:center; }
 .cake-section h2{ font-size:clamp(1.6rem,4.5vw,2.4rem); color:var(--cream); margin-bottom:.5rem; }
-.cake-section .hint{ color:rgba(255,246,234,0.6); margin-bottom:3rem; }
+.cake-section .hint{ color:rgba(74,46,43,0.65); margin-bottom:3rem; }
 
 .cake-wrap{ display:flex; justify-content:center; margin-bottom:2rem; }
 .cake{ position:relative; width:260px; }
@@ -244,7 +244,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 .tier3{ width:230px; height:64px; background:var(--orange); }
 .plate{ width:260px; height:12px; background:rgba(255,246,234,0.85); border-radius:50%; margin-top:2px; }
 
-.cake-status{ margin-top:2.2rem; font-family:'Baloo 2'; font-weight:600; color:var(--yellow); min-height:1.6em; }
+.cake-status{ margin-top:2.2rem; font-family:'Baloo 2'; font-weight:600; color:var(--pink); min-height:1.6em; }
 
 /* ---------- MESSAGE ---------- */
 .message-wrap{
@@ -272,7 +272,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 .message-wrap.show .message-card h3{ opacity:1; transform:translateY(0); }
 .message-card p{
-  line-height:1.85; font-size:1.05rem; color:rgba(255,246,234,0.9); margin-bottom:1.1rem;
+  line-height:1.85; font-size:1.05rem; color:rgba(74,46,43,0.9); margin-bottom:1.1rem;
   opacity:0; transform:translateY(18px);
   transition: opacity .6s ease, transform .6s ease;
 }
@@ -303,7 +303,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 
 .facts h2{ text-align:center; font-size:clamp(1.6rem,4.5vw,2.2rem); margin-bottom:2.4rem; }
-.facts h2 span{ color:var(--yellow); }
+.facts h2 span{ color:var(--pink); }
 .fact-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:1.2rem; }
 .fact-card{
   background:rgba(255,246,234,0.04); border-radius:18px; padding:1.6rem; border:1px solid rgba(255,246,234,0.08);
@@ -313,7 +313,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 .fact-card.in-view{ opacity:1; transform:translateY(0) scale(1); }
 .fact-card:hover{ transform:translateY(-6px) rotate(-1deg); }
 .fact-card .num{ font-family:'Baloo 2'; font-weight:800; font-size:1.4rem; color:var(--pink); }
-.fact-card p{ margin-top:.6rem; color:rgba(255,246,234,0.85); line-height:1.55; font-size:.98rem; }
+.fact-card p{ margin-top:.6rem; color:rgba(74,46,43,0.85); line-height:1.55; font-size:.98rem; }
 
 /* ---------- GALLERY (Tersembunyi sampai lilin ditiup) ---------- */
 #galleryWrap {
@@ -327,7 +327,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 
 .gallery h2{ text-align:center; font-size:clamp(1.6rem,4.5vw,2.2rem); margin-bottom:.6rem; }
-.gallery .hint{ text-align:center; color:rgba(255,246,234,0.6); margin-bottom:2.4rem; }
+.gallery .hint{ text-align:center; color:rgba(74,46,43,0.65); margin-bottom:2.4rem; }
 .polaroid-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:1.6rem; }
 .polaroid{
   background:var(--cream); padding:12px 12px 34px; border-radius:6px; box-shadow:0 12px 24px -10px rgba(0,0,0,0.4);
@@ -345,14 +345,14 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
   margin-top:3rem; background:var(--surface); border-radius:22px; padding:2rem;
   border:1px solid rgba(255,246,234,0.08); text-align:center;
 }
-.wish-box h3{ font-size:1.4rem; color:var(--yellow); margin-bottom:.3rem; }
+.wish-box h3{ font-size:1.4rem; color:var(--pink); margin-bottom:.3rem; }
 .wish-box textarea{
   width:100%; resize:vertical; min-height:100px; border-radius:14px; border:1px solid rgba(255,246,234,0.15);
   background:rgba(255,246,234,0.06); color:var(--cream); padding:.9rem 1rem; font-family:'Quicksand', sans-serif;
   font-size:1rem; line-height:1.5; outline:none; transition: border-color .2s ease, background .2s ease;
 }
 .wish-box textarea:focus{ border-color:var(--pink); background:rgba(255,246,234,0.09); }
-.wish-box textarea::placeholder{ color:rgba(255,246,234,0.4); }
+.wish-box textarea::placeholder{ color:rgba(74,46,43,0.45); }
 .send-btn{
   margin-top:1.2rem; display:inline-flex; align-items:center; gap:.5rem;
   font-family:'Baloo 2'; font-weight:700; font-size:1rem; color:var(--ink); cursor:pointer;
@@ -367,7 +367,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 /* ---------- FOOTER ---------- */
 footer{ text-align:center; padding:4rem 1.5rem 5rem; position:relative; z-index:2; }
 footer .big{ font-family:'Baloo 2'; font-size:clamp(1.6rem,5vw,2.4rem); background:linear-gradient(90deg,var(--cyan),var(--pink)); -webkit-background-clip:text; background-clip:text; color:transparent; font-weight:800; }
-footer p{ margin-top:.8rem; color:rgba(255,246,234,0.55); }
+footer p{ margin-top:.8rem; color:rgba(74,46,43,0.6); }
 
 ::selection{ background:var(--pink); color:var(--ink); }
 
