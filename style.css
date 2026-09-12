@@ -140,7 +140,7 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 .hero h1{
   font-size:clamp(2.6rem, 9vw, 5.2rem); line-height:1.05; font-weight:800;
-  background:linear-gradient(90deg, var(--pink), var(--yellow), var(--cyan));
+  background:linear-gradient(90deg, #E6467E, var(--yellow), var(--orange));
   -webkit-background-clip:text; background-clip:text; color:transparent;
   filter:drop-shadow(0 4px 0 rgba(0,0,0,0.15));
 }
@@ -426,7 +426,7 @@ footer p{ margin-top:.8rem; color:rgba(74,46,43,0.6); }
   transition: opacity 0.3s ease, transform 0.3s ease !important;
   
   /* Pindahkan gradasi warna langsung ke setiap huruf */
-  background: linear-gradient(90deg, var(--pink), var(--yellow), var(--cyan));
+  background: linear-gradient(90deg, #E6467E, var(--yellow), var(--orange));
   -webkit-background-clip: text !important;
   background-clip: text !important;
   color: transparent !important;
