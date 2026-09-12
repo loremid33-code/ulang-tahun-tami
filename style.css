@@ -306,12 +306,17 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 .facts h2 span{ color:var(--pink); }
 .fact-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:1.2rem; }
 .fact-card{
-  background:rgba(255,246,234,0.04); border-radius:18px; padding:1.6rem; border:1px solid rgba(255,246,234,0.08);
-  transition: transform .25s ease, opacity .7s ease;
+  background:rgba(255,255,255,0.55); border-radius:18px; padding:1.6rem; border:2px solid rgba(230,70,126,0.35);
+  box-shadow: 0 10px 22px -10px rgba(74,46,43,0.3);
+  transition: transform .25s ease, opacity .7s ease, border-color .25s ease, box-shadow .25s ease;
   opacity:0; transform:translateY(24px) scale(.96);
 }
 .fact-card.in-view{ opacity:1; transform:translateY(0) scale(1); }
-.fact-card:hover{ transform:translateY(-6px) rotate(-1deg); }
+.fact-card:hover{
+  transform:translateY(-6px) rotate(-1deg);
+  border-color:#E6467E;
+  box-shadow: 0 16px 28px -12px rgba(74,46,43,0.4);
+}
 .fact-card .num{ font-family:'Baloo 2'; font-weight:800; font-size:1.4rem; color:var(--pink); }
 .fact-card p{ margin-top:.6rem; color:rgba(74,46,43,0.85); line-height:1.55; font-size:.98rem; }
 
