@@ -342,7 +342,12 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 }
 .polaroid:hover{ transform:rotate(0deg) scale(1.05); }
 @keyframes pop-in{ to{ opacity:1; transform:rotate(var(--r,-2deg)) scale(1); } }
-.polaroid img{ width:100%; height:150px; object-fit:cover; border-radius:2px; display:block; }
+.polaroid img { 
+  width: 100%; 
+  height: auto; /* Tinggi foto otomatis menyesuaikan lebarnya */
+  border-radius: 2px; 
+  display: block; 
+}
 .polaroid .cap{ font-family:'Baloo 2'; font-size:.8rem; color:var(--ink); text-align:center; margin-top:.6rem; }
 
 /* ---------- wish / message box ---------- */
