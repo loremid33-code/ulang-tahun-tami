@@ -344,7 +344,8 @@ section{ position:relative; z-index:2; padding: 6rem 1.5rem; max-width:900px; ma
 @keyframes pop-in{ to{ opacity:1; transform:rotate(var(--r,-2deg)) scale(1); } }
 .polaroid img { 
   width: 100%; 
-  height: auto; /* Tinggi foto otomatis menyesuaikan lebarnya */
+  aspect-ratio: 1 / 1; /* Mengatur rasio foto jadi 1:1 (kotak) secara fleksibel */
+  object-fit: cover; 
   border-radius: 2px; 
   display: block; 
 }
