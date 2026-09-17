@@ -328,11 +328,11 @@ function updateStatus() {
 
 // ============ Fun facts (Kata-kata buat Tami) ============
 const facts = [
-  "Umur 22 itu udah cukup gede buat mikirin masa depan, tapi masih pantes buat rebahan sambil scroll FYP jam 2 pagi.",
-  "Di umur ini, teori 'quarter life crisis' boleh datang, tapi wajib pergi lagi kalau ada cake gratis.",
-  "22 tahun = udah expert overthinking, tapi juga makin jago bikin diri sendiri ketawa sendiri.",
-  "Semoga tahun ini validasi terbesar datang dari diri sendiri, bukan dari jumlah like doang.",
-  "Selamat resmi jadi manusia usia 22: masih boleh childish, tinggal disamarin pakai skincare rutin."
+  "Umur udah 22 ni, pertamo kenal dulu umur masih 11 atau 12 dak teraso kito la setuo ini yoo haha, tetap semangat yooo .",
+  "Dulu sempat jalin hubungan yang biso dibilang itu masih cinta monyet yoo wkwk 🙈.",
+  "Sekarang kito la samo-samo nginjak 22 tahun, umur yang sudah masuk dalam kategori dewasa, kalo butuh kawan cerito jangan sungkan yoo.",
+  "Banyak hal yang kito lah lalui masing-masing, terkhusus kau yang berjalan sendiri dari waktu masih duduk di smk, jujur aku salut samo kau, semoga selalu diberkati yo.",
+  "Selamat resmi jadi manusia usia 22 yoo, semoga apo yang kito rencano kan dihari ini bisa terwujud di masa depan yoo, dan semoga harapan kito untuk bisa ketemu dan saling ngobrol itu benar-benar bisa terwujudkan."
 ];
 const grid = document.getElementById('factGrid');
 facts.forEach((f, i) => {
